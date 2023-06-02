@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: idea-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: oil.moe:8848
+        namespace: guxian
+      config:
+        server-addr: oil.moe:8848
+        file-extension: yaml
+        namespace: guxian
+  profiles:
+    active: dev
